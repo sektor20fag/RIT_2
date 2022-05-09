@@ -1,0 +1,216 @@
+
+header{
+	text-align: center;
+	color: white;
+	background-color: #103834;
+	padding:5px 0px;
+}
+
+span{
+	background-color: #8ed261;
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+}
+
+h3{
+	font-family: 'Roboto Slab', serif;
+	text-decoration: underline;
+	text-decoration-color:#8ed261;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+}
+
+h4{
+	font-family: 'Roboto Slab', serif;
+}
+
+.h3-graf{
+	margin-top: 35px;
+}
+
+footer{
+	background-color:#103834; 
+	color: white;
+	padding:10px 20px;
+	text-align: center;
+
+}
+
+.tabl{
+	width: 80%;
+	height: 80%;
+}
+
+.p-1{
+	width: 100%;
+}
+.body{
+	padding:8px 20px;
+	border-left:8px solid #103834;
+	border-right:8px solid #103834;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+img{
+	width: 30%;
+
+}
+
+.cont-1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border:3px solid #30a89c;
+	margin-bottom: 15px;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+.cont-1-2{
+	width: 50%;
+	display: flex;
+}
+p{
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.graf-1{
+	width: 50%;
+}
+
+.cont-1-1{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.nav-1{
+	width: 50%;
+	height: 50px;
+	border-radius: 0;
+	border:1px solid #103834;
+	text-align: left;
+	font-size: medium;
+	background-color: #30a89c;
+}
+
+.nav-div{
+	border-bottom: 6px double #103834;
+	padding-bottom: 25px;
+}
+.ElTab{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.ElTab-1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.paint{
+	color: #103834; //темно синий
+	color: #30a89c; //бирюзовый
+	color: #8ed261; //зеленый
+}
+
+#RZK{
+	border-top:6px double #103834;
+	margin-top:35px;
+	padding-top: 15px;
+}
+
+.RZK{
+	border:4px solid #30a89c;
+	padding: 20px 20px;
+}
+
+#ET{
+	border-top:6px double #103834;
+	margin-top:35px;
+	padding-top: 15px;
+}
+.ET-div{
+	border:4px solid #30a89c;
+	padding: 20px 20px;
+}
+
+.ElTab-1{
+	border:4px solid #30a89c;
+	padding: 20px 20px;
+	align-items: center;
+}
+
+#LGKS{
+	border-top:6px double #103834;
+	margin-top:35px;
+	padding-top: 15px;
+	border-bottom:6px double #103834;
+	margin-bottom:35px;
+	padding-bottom: 15px;
+}
+
+a{
+	color: white;
+}
+
+
+       .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+  .hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #8ed261;
+  color: white;
+}
